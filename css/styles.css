@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+}
+
+span {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step {
+    width: 364px;
+    height: 575px;
+    padding: 0px 50px;
+    background-color: #191919;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(8px 8px 2px #403f3f);
+    border-radius: 30px;
+}
+
+.stepnumber {
+    width: 100%;
+    color: #ea4d1c;
+    font-weight: bolder;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.desc {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.click {
+    width: 374px;
+    height: 108px;
+    border-radius: 20px;
+    background-color: #c92f24;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 150px;
+}
+
+#top {
+    padding-top: 50px;
+}
+
+#middle {
+    padding-top: 50px;
+}
+
+#logo {
+    width: 575px;
+}
+
+#copyright {
+    margin-top: 150px;
+    color: white;
+    font-weight: lighter;
+}
